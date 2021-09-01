@@ -1,0 +1,121 @@
+
+   :root {
+    --primary-color: #fce138;
+    --secondary-color: #024e76;
+    --tertiary-color: #39a6b2;
+      }
+  
+   .boxes {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+     }
+
+     .steps {
+        font-family: Arial, Helvetica, sans-serif;
+      
+    }
+   
+      #Hero { 
+      font-size: 10px; border-image-width: 10px; padding: 10px; background-color: tomato; text-decoration-color: violet;
+        border-color: chocolate; flex-wrap: wrap; font: Helvetica;
+       }
+
+      #Hero { 
+     padding: 20px 35px;
+     background-color: var(--tertiary-color);
+     display: flex;
+     justify-content: space-between;
+     flex-wrap: wrap;
+     position: sticky;
+     position: -webkit-sticky;
+     top: 0;
+     background-image: url("sand-beach-background-texture-high-600w-1980634661.webp");
+     background-size: cover;
+     background-attachment: fixed;
+     background-position: 80%;
+     z-index: 9999;}
+   
+     page-header{ 
+       font-size: 10px; border: 2px; Padding: 10px;
+      border-color: blueviolet;  flex-wrap: wrap;
+      justify-content: center; 
+      }
+
+
+     body { 
+         background-color: red;
+         Border: 10px; Margin: 10px;}
+         font-family: Helvetica, Arial, sans-serif;
+
+
+
+      h1 { 
+       color: saddlebrown; background-color: sandybrown;}
+
+      p { 
+       background-color: seashell; color: steelblue;
+        color: Helvetica;
+      }
+
+     div { 
+       background-color: blueviolet;}
+
+     footer {    
+
+      border: violet ; text-align: justify; 
+
+     }
+
+
+       @media and screen(max-width= 1080px)
+
+       header {
+        padding-bottom: 0;
+        justify-content: center;
+        position:relative;
+       }
+    
+      header h1 {
+        width: 100%;
+        text-align: center;
+      }
+    
+      header nav ul {
+        margin-top: 20px;
+        width: 100%;
+        justify-content: center;
+      }
+    
+      header nav ul li a {
+        font-size: 20px;
+      }
+    
+      footer h2, footer div {
+        text-align: center;
+        width: 100%;
+      }
+    
+      .hero-cta, .hero-form {
+        width: 100%;
+      }
+      
+      .hero-cta {
+        text-align: center;
+      }
+    
+      .section-title {
+        width: 80%;
+      }
+      
+      .trainer {
+        flex: 0 70%;
+      }
+      
+      .contact-info iframe{
+        flex: 1 100%;
+      }
+    
+
+        
+    

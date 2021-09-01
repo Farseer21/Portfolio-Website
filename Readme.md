@@ -1,0 +1,1 @@
+My website serves as a portal to many of many creative outlets. As I grow my portfolio I shall include further pages and links to my projects. 
