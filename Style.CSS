@@ -1,4 +1,6 @@
    
+   
+   @media screen and (max-width: 1080px) {
    :root {
     --primary-color: #fce138;
     --secondary-color: #024e76;
@@ -68,7 +70,7 @@
 
      }
 
-    @media and screen (max-width= 1080px) 
+    
 
       header h1 {
         width: 100%;
@@ -109,7 +111,7 @@
       .contact-info iframe{
         flex: 1 100%;
       }
-    
+    }
     
         
     
