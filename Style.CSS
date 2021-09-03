@@ -1,4 +1,4 @@
-
+   
    :root {
     --primary-color: #fce138;
     --secondary-color: #024e76;
@@ -11,17 +11,18 @@
     padding: 0;
      }
 
-     .steps {
-        font-family: Arial, Helvetica, sans-serif;
+   .steps {
+       text-decoration-style: Helvetica;
       
     }
    
-      #Hero { 
-      font-size: 10px; border-image-width: 10px; padding: 10px; background-color: tomato; text-decoration-color: violet;
-        border-color: chocolate; flex-wrap: wrap; font: Helvetica;
+    #Hero text { 
+       border-image-width: 10px; padding: 10px; background-color: tomato; 
+        border-color: chocolate; flex-wrap: wrap; font: Helvetica; font-size: 10px;
+        text-decoration-color: violet;
        }
 
-      #Hero { 
+    #Hero { 
      padding: 20px 35px;
      background-color: var(--tertiary-color);
      display: flex;
@@ -30,7 +31,7 @@
      position: sticky;
      position: -webkit-sticky;
      top: 0;
-     background-image: url("sand-beach-background-texture-high-600w-1980634661.webp");
+     background-image:("sand-beach-background-texture-high-600w-1980634661.webp");
      background-size: cover;
      background-attachment: fixed;
      background-position: 80%;
@@ -45,8 +46,8 @@
 
      body { 
          background-color: red;
-         Border: 10px; Margin: 10px;}
-         font-family: Helvetica, Arial, sans-serif;
+         Border: 10px; Margin: 10px;
+         }
 
 
 
@@ -67,15 +68,8 @@
 
      }
 
+    @media and screen (max-width= 1080px) 
 
-       @media and screen(max-width= 1080px)
-
-       header {
-        padding-bottom: 0;
-        justify-content: center;
-        position:relative;
-       }
-    
       header h1 {
         width: 100%;
         text-align: center;
@@ -116,6 +110,6 @@
         flex: 1 100%;
       }
     
-
+    
         
     
