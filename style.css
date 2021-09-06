@@ -2,76 +2,150 @@
    
    
    :root {
-    --primary-color: #fce138;
+    --primary-color: #928dd6;
     --secondary-color: #024e76;
     --tertiary-color: #39a6b2;
       }
   
-   .boxes {
-    box-sizing: border-box;
-    margin: 0;
-    padding: 0;
-     }
+   .text-border {
+    padding-bottom: auto;
+    margin-bottom: auto;
+    margin-top: auto;
+    padding-top: auto;
 
-   .steps {
-       text-decoration-style: Helvetica;
-      
+     }
+    
+    ul {
+      margin: 15px 20px;
+      position: absolute;
+      z-index: 9999;
+      list-style-type: none;
+      border: 1px solid #422121;
+      background-color: #15943b;
+      max-inline-size: inherit;
+      justify-content: space-between;
+      background-size: cover;
+      margin-top: 42px;
     }
-   
-    #Hero text { 
-       border-image-width: 10px; padding: 10px; background-color: tomato; 
-        border-color: chocolate; flex-wrap: wrap; font: Helvetica; font-size: 10px;
-        text-decoration-color: violet;
+    
+    li {
+      color: #280c69;
+      margin: 10px; 
+      opacity: 0.5;
+      display: flex;
+      flex-wrap: wrap;
+      display: block;
+      width: 60px;
+      display: inline;
+      justify-content: space-between;
+      align-items: center;
+      margin-top: 40px;
+      border-top: 40px;
+      border-top-left-radius: 40px;
+    }
+    
+      nav {
+       align-content: space-between;
+       justify-content: center;
+       font-size: 60px;
+       background-color: rgb(124, 124, 131);
+       margin-bottom: 20p
+      }
+      
+
+    #experience {
+    border-bottom: 30px; 
+    }
+
+    header {
+
+      align-content: center;
+      background-color: var(--tertiary-color);
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-between;
+      align-items: center;
+
+    }
+
+     #hero-banner text { 
+      font: Helvetica;
+      font-size: 10px;
+      text-decoration-color: violet;
+      text-align: center;
+      font-size: 100px;
+      font-weight: 800;
+      font-style: italic;
+      border-bottom: 20px;
+      position: absolute;
+      background-color: lemonchiffon;
+      z-index: 9999;
        }
 
-    #Hero { 
+    #hero-banner img { 
      padding: 20px 35px;
-     background-color: var(--tertiary-color);
+     border-image-width: 10px; 
      display: flex;
-     justify-content: space-between;
      flex-wrap: wrap;
-     position: sticky;
-     position: -webkit-sticky;
-     top: 0;
-     background-image:("sand-beach-background-texture-high-600w-1980634661.webp");
+     background-image: url ("Beach.img");
      background-size: cover;
      background-attachment: fixed;
      background-position: 80%;
      z-index: 9999;
+     background-position: bottom;
+     height: auto;
+     opacity: 0.3;
+     justify-content: center; 
+    }
+
+    #hero-banner {
+    margin-top: 100px;
+    padding-left: 10px;
+    justify-self:center;
+
     }
    
-     page-header{ 
-       font-size: 10px; border: 2px; 
-       Padding: 10px;
+     .text-bracket{ 
+      font-size: 20px; 
+      border: 2px; 
+      Padding: 10px;
       border-color: blueviolet; 
-       flex-wrap: wrap;
+      flex-wrap: wrap;
       justify-content: center; 
+      text-align: center;
       }
 
 
      body { 
-         background-color: red;
-         Border: 10px; Margin: 10px;
+         background-color: rgb(133, 101, 207);
+         Border: 10px;
+         Margin: 10px;
          }
 
-
-
-      h1 { 
-       color: saddlebrown; background-color: sandybrown;}
+     h2 {
+        text-underline-position: auto;
+        font-size: 60px;
+         }
 
       p { 
-       background-color: seashell; color: steelblue;
-        color: Helvetica;
+       background-color: seashell;
+       color: steelblue;
+       font-size: 20px;
+       border: 20px;
+       margin: 30px;
+       
       }
 
      div { 
-       background-color: blueviolet;}
+       background-color: rgb(172, 125, 63);}
 
      footer {    
 
-      border: violet ; text-align: justify; 
+      border: violet ; 
+      text-align: justify; 
+      border-inline-color: green;
 
-     }
+      }
 
     
 
