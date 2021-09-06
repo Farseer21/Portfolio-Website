@@ -6,4 +6,4 @@ I tried to play around with @media and sticky-web features. But, I found that th
 The website was rendered close to my original design. I think the more material that I add to the site, the more fleshed out it will become. Things I want to add to the website going forward: 
 1. more pages with portfolio work and links to sites with projects. 
 2. more use of textures to make the site more unique and showing off my personal work. Border work and perhaps even custom emojis. 
-3. a more integrated and interative system to allow my porfolio to show its self off and allow user interaction/input.(perhaps a search function.)
+3. a more integrated and interative system(maybe with javascript functions.) to allow my porfolio to show its self off and allow user interaction/input.(perhaps a search function.)
